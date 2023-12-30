@@ -388,6 +388,8 @@ public abstract class AbsTagEditorActivity extends AbsBaseActivity {
         } else {
             if (SAFUtil.isSDCardAccessGranted(this)) {
                 writeTags(savedSongs);
+            } else {
+                writeTags(savedSongs);
             }
         }
     }
